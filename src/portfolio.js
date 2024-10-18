@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: Math.floor(Math.random() * 2000) + 500 // Set animation duration as per your animation
+  duration: Math.floor(Math.random() * 1000) + 500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,23 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Vincent Chen",
-  title: "Hello, I'm Vincent",
+  username: "Raul Galvez",
+  title: "Hello, I'm Raul Galvez",
   subTitle: emoji(
     "I am a senior at Duke University majoring in Electrical and Computer Engineering and Computer Science. In addition to my interest in software and hardware development, I also enjoy CAD and working across disciplines."
   ),
   resumeLink:
-    "https://drive.google.com/drive/folders/1HiTrKVw_JnTEp43E7gvRgV-PF-PPQtx2?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1VF8MllHyTKhDblJEzlQtTEr0duTiVs4L/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/vjc9duke",
-  linkedin: "https://www.linkedin.com/in/vincent-j-chen/",
-  gmail: "vzchen12@gmail.com",
-  phone: "440-318-4013",
+  github: "https://github.com/RaulGalvez288",
+  linkedin: "https://www.linkedin.com/in/raulgalvezjr/",
+  gmail: "Raulgalvez10072@outlook.com",
+  phone: "210-309-0498",
   // gitlab: "https://gitlab.com/saadpasta",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
@@ -51,21 +51,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Passionate about mechanical, electrical, and software development and everything in between | Experienced across CAD, low-level languages, high-level languages, and cloud technologies",
+    "Passionate about development about Software, Hardware, and everything between them | Experienced across low-level languages, high-level languages, cloud technologies, and CAD",
   skills: [
     emoji(
       "🖥 Develop apps and scripts in high level languages like Java, Python, and MATLAB among others"
     ),
+    emoji("📟 Program microcontrollers and FPGAs in C, Assembly, and Verilog"),
     emoji(
-      "📟 Program for microcontrollers and FPGAs in C, Assembly, and Verilog"
+      "📱 Development of web apps using Typescript, Javascript, and many more"
     ),
-    emoji(
-      "📱 Develop web and mobile apps using Flutter, Swift, TypeScript, JavaScript, and others"
-    ),
-    emoji("☁️ Utilize Cloud Technologies like AWS, Salesforce, and Azure"),
-    emoji(
-      "💽 Configure and Ran Databases using Firebase, PostgreSQL, MonogDB, and XQuery"
-    ),
+    emoji("☁️ Utilize Cloud Technologies like AWS and Azure"),
     emoji("🔩 Design parts and products in SolidWorks, Fusion 360, and AutoCAD")
   ],
 
@@ -76,140 +71,116 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java",
-      targetID: ["Java Chess Application"]
+      targetID: ["duke-undergrad"]
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
-      targetID: [
-        "Picasso Intelligence",
-        "Library Patron Counter",
-        "ACkER Lab",
-        "Laser Tag Kit",
-        "Assembly Autotester",
-        "Picasso Intelligence Website"
-      ]
+      targetID: ["Duke Robotics Club"]
     },
     {
-      skillName: "C#/C++/C",
+      skillName: "C|C++|C#",
       fontAwesomeClassname: "fab fa-cuttlefish",
       targetID: [
-        "Ecolab",
-        "Onto Innovation",
-        "Library Patron Counter",
-        "Laser Tag Kit",
-        "Auto Turntable",
-        "Mini Laptop"
+        "duke-undergrad",
+        "Duke Robotics Club",
+        "Duke University Department of Computational Media, Arts & Cultures",
+        "5-stage RISC Processor"
       ]
     },
     {
       skillName: "Assembly",
-      fontAwesomeClassname: "fas fa-robot",
-      targetID: [
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank",
-        "Assembly Autotester"
-      ]
+      fontAwesomeClassname: "fas fa-cog",
+      targetID: ["5-stage RISC Processor"]
     },
     {
       skillName: "Verilog",
       fontAwesomeClassname: "fas fa-v",
-      targetID: [
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank",
-        "Assembly Autotester"
-      ]
+      targetID: ["5-stage RISC Processor"]
     },
     {
       skillName: "TypeScript",
       fontAwesomeClassname: "fas fa-scroll",
-      targetID: ["nCino", "UChat Anonymous Chatting App"]
+      targetID: ["Duke Robotics Club", "Portfolio Website"]
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
       targetID: [
-        "Picasso Intelligence",
-        "nCino",
-        "Picasso Intelligence Website"
+        "Duke Robotics Club",
+        "Portfolio Website",
+        "Apartment Hunter Website"
       ]
     },
     {
       skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5",
-      targetID: ["Picasso Intelligence", "Picasso Intelligence Website"]
+      targetID: [
+        "Duke Robotics Club Website",
+        "Portfolio Website",
+        "Apartment Hunter Website"
+      ]
     },
     {
-      skillName: "Flutter/Dart",
-      fontAwesomeClassname: "fas fa-dove",
-      targetID: ["E-Sentience"]
+      skillName: "CSS3",
+      fontAwesomeClassname: "fa-brands fa-css3-alt",
+      targetID: [
+        "Duke Robotics Club Website",
+        "Portfolio Website",
+        "Apartment Hunter Website"
+      ]
     },
     {
-      skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift",
-      targetID: ["ACkER Lab"]
+      skillName: "ROS1",
+      fontAwesomeClassname: "fas fa-robot",
+      targetID: ["Duke Robotics Club", "UR5e Cookout Simulation"]
     },
     {
       skillName: "MATLAB",
       fontAwesomeClassname: "fas fa-square-root-alt",
-      targetID: ["ACkER Lab"]
-    },
-    {
-      skillName: "PostgreSQL",
-      fontAwesomeClassname: "fas fa-database",
-      targetID: ["UChat Anonymous Chatting App"]
+      targetID: ["duke-undergrad"]
     }
   ],
   technologies: [
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws",
-      targetID: ["nCino"]
-    },
-    {
-      skillName: "Salesforce",
-      fontAwesomeClassname: "fab fa-salesforce",
-      targetID: ["nCino"]
-    },
-    {
-      skillName: "DynamoDB",
-      fontAwesomeClassname: "fas fa-database",
-      targetID: ["nCino"]
-    },
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database",
-      targetID: ["UChat Anonymous Chatting App"]
+      targetID: ["Apartment Hunter Website"]
     },
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git",
       targetID: [
-        "Ecolab",
-        "Picasso Intelligence",
-        "Onto Innovation",
-        "nCino",
-        "E-Sentience",
-        "Library Patron Counter",
-        "Laser Tag Kit",
-        "Candy Tank",
-        "Assembly Autotester",
-        "Java Chess Application",
-        "Computer Science Teaching Assistant",
-        "ACkER Lab",
-        "Picasso Intelligence Website",
-        "UChat Anonymous Chatting App"
+        "Duke University Department of Computational Media, Arts & Cultures",
+        "Duke Robotics Club",
+        "Apartment Hunter Website",
+        "UR5e Cookout Simulation"
+      ]
+    },
+    {
+      skillName: "Git Bash",
+      fontAwesomeClassname: "fab fa-git-alt",
+      targetID: [
+        "Duke University Department of Computational Media, Arts & Cultures",
+        "Duke Robotics Club",
+        "Portfolio Website",
+        "Apartment Hunter Website",
+        "UR5e Cookout Simulation"
       ]
     },
     {
       skillName: "React",
       fontAwesomeClassname: "fab fa-react",
-      targetID: ["UChat Anonymous Chatting App"]
+      targetID: [
+        "Duke Robotics Club",
+        "Apartment Hunter Website",
+        "Portfolio Website"
+      ]
     },
     {
       skillName: "PyTorch",
       fontAwesomeClassname: "fas fa-fire",
-      targetID: ["duke-undergrad"],
+      targetID: ["Machine Learning Project"],
       targetBlock: "center"
     },
     {
@@ -229,85 +200,46 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-calculator",
       targetID: ["duke-undergrad"],
       targetBlock: "center"
-    },
-    {
-      skillName: "SimpleScalar",
-      fontAwesomeClassname: "fas fa-microchip",
-      targetID: ["duke-undergrad"],
-      targetBlock: "center"
-    },
-    {
-      skillName: "Gem5",
-      fontAwesomeClassname: "fas fa-microchip",
-      targetID: ["duke-undergrad"],
-      targetBlock: "center"
     }
   ],
   software: [
     {
-      skillName: "XCode",
-      fontAwesomeClassname: "fas fa-mobile-screen-button",
-      targetID: ["ACkER Lab", "UChat Anonymous Chatting App"]
-    },
-    {
-      skillName: "Android Studio",
-      fontAwesomeClassname: "fas fa-mobile-screen",
-      targetID: ["E-Sentience"]
-    },
-    {
       skillName: "Fusion 360",
       fontAwesomeClassname: "fas fa-cube",
       targetID: [
-        "Library Patron Counter",
-        "Auto Turntable",
-        "Mini Laptop",
-        "Candy Tank",
-        "Fidget Cube",
-        "Desk Hook",
-        "Google Home Mount",
-        "CNC'd Laptop Stand",
-        "Watch Charging Station"
+        "Duke University Department of Computational Media, Arts & Cultures",
+        "Autonomous Walking Robot",
+        "Duke Robotics Club",
+        "UR5e Cookout Simulation"
       ]
-    },
-    {
-      skillName: "SolidWorks",
-      fontAwesomeClassname: "fas fa-cube",
-      targetID: ["Duke Robotics"]
     },
     {
       skillName: "AutoCAD",
       fontAwesomeClassname: "fas fa-vector-square",
-      targetID: ["Ecolab"]
-    },
-    {
-      skillName: "KiCad",
-      fontAwesomeClassname: "fas fa-microchip",
-      targetID: ["Library Patron Counter", "Laser Tag Kit", "Auto Turntable"]
+      targetID: ["duke-undergrad"]
     },
     {
       skillName: "Photoshop",
       fontAwesomeClassname: "fas fa-image",
-      targetID: ["Picasso Intelligence"]
-    },
-    {
-      skillName: "Illustrator",
-      fontAwesomeClassname: "fas fa-image",
-      targetID: ["Duke Robotics"]
-    },
-    {
-      skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma",
-      targetID: ["Picasso Intelligence", "E-Sentience"]
+      targetID: ["duke-undergrad"]
     },
     {
       skillName: "Unreal Engine 5",
       fontAwesomeClassname: "fas fa-gears",
-      targetID: ["duke-undergrad"],
+      targetID: [
+        "Duke University Department of Computational Media, Arts & Cultures"
+      ],
       targetBlock: "center"
     },
     {
       skillName: "PSpice",
       fontAwesomeClassname: "fas fa-pepper-hot",
+      targetID: ["duke-undergrad"],
+      targetBlock: "center"
+    },
+    {
+      skillName: "LabVIEW",
+      fontAwesomeClassname: "fas fa-solid fa-play",
       targetID: ["duke-undergrad"],
       targetBlock: "center"
     }
@@ -317,77 +249,42 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "3D Printing",
       fontAwesomeClassname: "fas fa-print",
       targetID: [
-        "Library Patron Counter",
-        "Duke Robotics",
-        "Auto Turntable",
-        "Mini Laptop",
-        "Candy Tank",
-        "Fidget Cube",
-        "Desk Hook",
-        "Google Home Mount",
-        "Watch Charging Station"
+        "Duke Robotics Club",
+        "Autonomous Walking Robot",
+        "Underwater AUV",
+        "Self-Attaching Camera Trap"
       ]
     },
     {
       skillName: "Laser Cutting",
       fontAwesomeClassname: "fas fa-scissors",
-      targetID: [
-        "Library Patron Counter",
-        "Duke Robotics",
-        "Auto Turntable",
-        "Mini Laptop",
-        "Candy Tank",
-        "Desk Hook"
-      ]
-    },
-    {
-      skillName: "CNC Milling",
-      fontAwesomeClassname: "fas fa-bore-hole",
-      targetID: ["CNC'd Laptop Stand"]
+      targetID: ["duke-undergrad"]
     },
     {
       skillName: "Soldering",
       fontAwesomeClassname: "fas fa-pen",
-      targetID: ["Library Patron Counter", "Laser Tag Kit", "Auto Turntable"]
+      targetID: [
+        "Duke Robotics Club",
+        "Self-Attaching Camera Trap",
+        "Underwater AUV"
+      ]
     },
     {
       skillName: "Oscilloscope",
       fontAwesomeClassname: "fas fa-microscope",
-      targetID: [
-        "duke-undergrad",
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank"
-      ],
+      targetID: ["duke-undergrad"],
       targetBlock: "center"
     },
     {
       skillName: "Waveform Generator",
       fontAwesomeClassname: "fas fa-wave-square",
-      targetID: [
-        "duke-undergrad",
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank"
-      ],
+      targetID: ["duke-undergrad"],
       targetBlock: "center"
     },
     {
       skillName: "Power Supply",
       fontAwesomeClassname: "fas fa-plug",
-      targetID: [
-        "duke-undergrad",
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank"
-      ],
-      targetBlock: "center"
-    },
-    {
-      skillName: "LCR Meter",
-      fontAwesomeClassname: "fas fa-spinner",
-      targetID: [
-        "duke-undergrad",
-        "Electrical and Computer Engineering Teaching Assistant",
-        "Candy Tank"
-      ],
+      targetID: ["duke-undergrad"],
       targetBlock: "center"
     }
   ],
@@ -404,24 +301,10 @@ const educationInfo = {
       schoolName: "Duke University",
       logo: require("./assets/images/dukeLogo.png"),
       subHeader:
-        "Master of Engineering in Electrical and Computer Engineering (Upcoming)",
-      duration: "May 2025 - December 2025",
-      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-      id: "duke-grad"
-    },
-    {
-      schoolName: "Duke University",
-      logo: require("./assets/images/dukeLogo.png"),
-      subHeader:
-        "BSE in Electrical and Computer Engineering, BS in Computer Science, Latin Minor",
-      duration: "August 2021 - May 2025",
+        "BSE in Electrical and Computer Engineering, BS in Computer Science, Certificate in Robotics & Automation",
+      duration: "August 2020 - Dec 2024",
       // desc: "Description of what I did here",
-      descBullets: [
-        "GPA: 4.0/4.0",
-        "Dean's List with Distinction",
-        "🏅🏅 2x Outstanding Undergraduate TA Award (Computer Science)",
-        "🏅🏅 2x Outstanding Undergraduate TA Award (Electrical and Computer Engineering)"
-      ],
+      descBullets: [],
       id: "duke-undergrad"
     }
   ]
@@ -434,27 +317,27 @@ const techStack = {
   experience: [
     {
       Stack: "General Software Engineering",
-      progressPercentage: "95%"
-    },
-    {
-      Stack: "Computer Hardware Design",
-      progressPercentage: "92%"
+      progressPercentage: "90%"
     },
     {
       Stack: "3D Modeling and Building",
-      progressPercentage: "87%"
-    },
-    {
-      Stack: "Backend/Cloud Development",
-      progressPercentage: "82%"
+      progressPercentage: "85%"
     },
     {
       Stack: "Frontend/App Development",
-      progressPercentage: "71%"
+      progressPercentage: "82%"
+    },
+    {
+      Stack: "Computer Hardware Design",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Backend/Cloud Development",
+      progressPercentage: "65%"
     },
     {
       Stack: "Machine Learning",
-      progressPercentage: "62%"
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -466,82 +349,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Intern - Global Engineering",
-      company: "Ecolab",
-      companylogo: require("./assets/images/ecolabLogo.png"),
-      date: "May 2024 – August 2024",
+      role: "Developer - Unreal Engine 5",
+      company:
+        "Duke University Department of Computational Media, Arts & Cultures",
+      companylogo: require("./assets/images/dukeCMAC.png"),
+      date: "August 2024 – Present",
       desc: "I first designed, built, and wired a custom control panel to emulate a polymer activation system. Then, I developed simulation software to enable remote analysis of customer equipment.",
       mainSkills: [
-        "C: PLC programming",
-        "B&R Studio: PLC development and deployment",
-        "Git: version control and collaboration",
-        "AutoCAD: electrical and mechanical layout"
-      ]
-    },
-    {
-      role: "Intern - Robotics and Software Engineering",
-      company: "Picasso Intelligence",
-      companylogo: require("./assets/images/piLogo.png"),
-      date: "August 2023 - May 2024",
-      desc: "I developed actuator control software, worked on cooling vest hardware, and refactored the company website. I also aided in team development activities like interviewing candidates and creating a product catalog.",
-      mainSkills: [
-        "C: actuator app development",
-        "Python: actuator app development",
-        "JavaScript: custom functionality",
-        "HTML: website structure",
-        "CSS: website styling",
-        "Git: version control and collaboration",
-        "Figma: promotional materials",
-        "Photoshop: promotional materials"
-      ]
-    },
-    {
-      role: "Intern - Software Engineering",
-      company: "Onto Innovation",
-      companylogo: require("./assets/images/ontoLogo.png"),
-      date: "May 2023 - August 2023",
-      desc: "I developed a solution to eliminate a distributed computing error for AI Diffract, a refraction simulation software, and added a couple QOL UI features. I also helped refactor some legacy C++ code to improve maintainability and decrease the possibility of memory leaks.",
-      mainSkills: [
-        "C++: software development",
+        "Unreal Engine 5: interactive world using simulation",
+        "Blueprint Scrpting: element creation and interaction",
+        "Fusion 360: asset modeling and implementation",
+        "Jira: task tracking and documentation",
         "Git: version control and collaboration"
-      ]
-    },
-    {
-      role: "Intern - Software Engineering",
-      company: "nCino",
-      companylogo: require("./assets/images/ncinoLogo.png"),
-      date: "May 2022 – January 2023",
-      desc: "I leveraged AWS services such as Lambda, DynamoDB, and API Gateway to build a data-sharing system integrated with nCino's core MTRANS data mapping service. I also composed documentation for future developers and developed comprehensive testing suites.",
-      mainSkills: [
-        "AWS: cloud development and management",
-        "Salesforce: core app integration",
-        "DynamoDB: database management",
-        "TypeScript: AWS Lambda development",
-        "JavaScript: core app development",
-        "Git: version control and collaboration",
-        "Jest: testing framework",
-        "Postman: API testing"
-      ]
-    },
-    {
-      role: "Intern - Software Engineering",
-      company: "E-Sentience",
-      companylogo: require("./assets/images/esentLogo.png"),
-      date: "May 2022 – August 2022",
-      desc: "I first developed a UI mockup for a cross-platform fitness app in Figma. Then, I developed the core part of the app in Flutter, using Git to manage version control and track tasks.",
-      mainSkills: [
-        "Flutter/Dart: app development",
-        "Git: version control and collaboration",
-        "Android Studio: app testing and deployment",
-        "Figma: UI mockup"
       ]
     }
   ]
 };
 
 const otherExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
+    // This experience is an example
     {
       role: "Electrical and Computer Engineering Teaching Assistant",
       company: "Duke University",
@@ -554,34 +382,6 @@ const otherExperiences = {
       mainSkills: [
         "Lab instruction: guidance on computer architecture concepts and FPGA programming",
         "Project mentorship: assistance on Verilog programming and electromechanical integration"
-      ]
-    },
-    {
-      role: "Computer Science Teaching Assistant",
-      company: "Duke University",
-      companylogo: require("./assets/images/dukeLogo.png"),
-      date: "August 2022 – May 2024",
-      descBullets: [
-        "I individually mentored students for Duke's Advanced Software Design course, covering topics such as OOP design principles, design patterns, and best Git practices",
-        "🏅🏅 2x Outstanding Undergraduate TA Award"
-      ],
-      mainSkills: [
-        "Mentorship: individual student guidance",
-        "Grading: qualitative feedback for student code, Git practices, and teamwork"
-      ]
-    },
-    {
-      role: "Undergraduate Researcher (Software Engineering)",
-      company: "ACkER Lab",
-      companylogo: require("./assets/images/ackerLogo.png"),
-      date: "January 2023 – May 2024",
-      desc: "I built an iPadOS app that administers and automatically scores cognitive tests and led the first round of validation trials for.  I also worked on a MATLAB preprocessing script that filters out noisy heart rate data and an automatic data import script that eliminated hours of manual input.",
-      mainSkills: [
-        "MATLAB: data preprocessing",
-        "Python: script development",
-        "Swift: app development",
-        "Git: version control and collaboration",
-        "XCode: app testing and deployment"
       ]
     }
   ]
@@ -602,171 +402,14 @@ const bigProjects = {
   subtitle: "Recent projects that showcase a diverse range of skills",
   projects: [
     {
-      image: require("./assets/images/lpc/render1.png"),
-      projectName: "Library Patron Counter",
-      projectDesc:
-        "I designed, fabricated, and programmed a patron counter for the Duke Libraries, containing low-power sensing components and an edge server.",
-      mainSkills: [
-        "Python: edge server programming",
-        "C: sensing node programming",
-        "Git: version control",
-        "Fusion 360: 3D modeling",
-        "KiCad: PCB design",
-        "3D printing: custom part fabrication",
-        "Soldering: PCB assembly"
-      ],
-      footerLink: [
-        {
-          name: "Gallery",
-          pics: [
-            {
-              pic: require("./assets/images/lpc/rw1.png"),
-              caption: "Finished product"
-            },
-            {
-              pic: require("./assets/images/lpc/rw2.png"),
-              caption: "Finished product (close up)"
-            },
-            {
-              pic: require("./assets/images/lpc/rw3.png"),
-              caption: "Finished product (powered on)"
-            },
-            {
-              pic: require("./assets/images/lpc/dashboard.png"),
-              caption: "Dashboard"
-            },
-            {
-              pic: require("./assets/images/lpc/PCB.png"),
-              caption: "PCB (model)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc3.png"),
-              caption: "PCB (product)"
-            },
-            {
-              pic: require("./assets/images/lpc/chassis.png"),
-              caption: "IR sensor chassis (model)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc6.png"),
-              caption: "IR sensor chassis (product)"
-            },
-            {
-              pic: require("./assets/images/lpc/sensorholder.png"),
-              caption: "IR sensor wall mount (model)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc4.png"),
-              caption: "IR sensor wall mount (product)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc5.png"),
-              caption: "IR sensor wall mount (product)"
-            },
-            {
-              pic: require("./assets/images/lpc/arduinoenclosure.png"),
-              caption: "Microcontroller enclosure (model)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc1.png"),
-              caption: "Microcontroller power case (product)"
-            },
-            {
-              pic: require("./assets/images/lpc/rwc2.png"),
-              caption: "Microcontroller enclosure (product)"
-            }
-          ]
-        },
-        {
-          name: "Code Repository",
-          url: "https://gitfront.io/r/vzchen12/UNpA3DKFZE8x/patron-counter/"
-        },
-        {
-          name: "Project Reports",
-          url: "https://drive.google.com/drive/folders/1YfgzoODL0tuZnu1O9ZjlZLNMBajfBd_y?usp=drive_link"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/laser/thumbnail.png"),
-      projectName: "Laser Tag Kit",
-      projectDesc:
-        "Working with a team of engineers, I led the PCB design and software development of an at-home laser tag kit.",
-      mainSkills: [
-        "Python: control hub programming",
-        "C: microcontroller programming",
-        "Git: version control and collaboration",
-        "KiCad: PCB design",
-        "Soldering: circuit assembly"
-      ],
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/laser/finished.png"),
-              caption: "Finished glove prototype"
-            },
-            {
-              pic: require("./assets/images/laser/vestfinal.png"),
-              caption: "Finished vest prototype"
-            },
-            {
-              pic: require("./assets/images/laser/pcbs.png"),
-              caption: "Milled PCBs"
-            },
-            {
-              pic: require("./assets/images/laser/pcbproto.png"),
-              caption: "Soldered PCB prototype"
-            },
-            {
-              pic: require("./assets/images/laser/POC.png"),
-              caption: "PCB schematic (proof of concept)"
-            },
-            {
-              pic: require("./assets/images/laser/vest.png"),
-              caption: "PCB schematic (vest)"
-            },
-            {
-              pic: require("./assets/images/laser/attiny.png"),
-              caption: "PCB schematic (ATTINY-based)"
-            },
-            {
-              pic: require("./assets/images/laser/hub.png"),
-              caption: "Smart hub"
-            },
-            {
-              pic: require("./assets/images/laser/main.png"),
-              caption: "Main screen"
-            },
-            {
-              pic: require("./assets/images/laser/code.png"),
-              caption: "Defuse game mode"
-            }
-          ]
-        },
-        {
-          name: "Control Hub Repository",
-          url: "https://github.com/vjc9duke/laser-tag-hub"
-        },
-        {
-          name: "Microcontroller Repository",
-          url: "https://drive.google.com/drive/folders/11wB_0B5jFPhh-wsaUemmA5tbX7PcPUwa?usp=sharing"
-        },
-        {
-          name: "Project Site",
-          url: "https://sites.google.com/view/quantum-quest/"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/thumbnails/robot.png"),
-      projectName: "Duke Robotics",
+      projectName: "Duke Robotics Club",
       projectDesc:
-        "As the mechanical lead, I manage overarching decisions regarding the physical assembly of the robot, delegation of tasks, and the onboarding of new mechanical members.",
+        "As a member of the CS team, I manage overarching decisions regarding the physical assembly of the robot, delegation of tasks, and the onboarding of new mechanical members.",
       mainSkills: [
-        "Leadership: onboarding, training, and task delegation",
-        "SolidWorks: 3D modeling"
+        "Programming: Python, Typescript, ROS1",
+        "Leadership: Onboarding lead, CS Core member",
+        "Hands-On: 3D printing, Buoyancy Tuning"
       ],
       footerLink: [
         {
@@ -808,55 +451,101 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
-
-const multiDiscProjects = {
-  title: "Multidisciplinary Projects",
-  subtitle: "Projects that span mechanical, electrical, and software work",
-  projects: [
+    },
     {
-      image: require("./assets/images/autoturn/render1.png"),
-      projectName: "Auto Turntable",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Autonomous Walking Robot",
       projectDesc:
-        "I modeled, built, and programmed a small turntable with a stepper motor, LEDs, and surface mount resistors.",
+        "I designed, modeled, and programmed a walking robot for my Robot Studio course. It uses a Raspberry Pi 4, Lewansoul LX-16A servos, and a custom 3D printed components.",
       mainSkills: [
-        "C: microcontroller programming",
-        "Fusion 360: 3D modeling",
-        "KiCad: PCB design",
-        "Surface-mount soldering: circuit assembly",
+        "Python: control of the servos",
+        "Git: version control for various project stages",
+        "Fusion 360: 3D modeling of legs, chassis, and housing",
         "3D printing: custom part fabrication",
-        "Laser cutting/engraving: custom part fabrication"
+        "Soldering: circuit assembly",
+        "Circuit design: power distribution and control"
+      ],
+      footerLink: [
+        {
+          name: "Gallery",
+          pics: [
+            {
+              pic: require("./assets/images/placeholder.jpg"),
+              caption: "Placeholder"
+            }
+          ]
+        },
+        {
+          name: "Code Repository",
+          url: "https://gitfront.io/r/vzchen12/UNpA3DKFZE8x/patron-counter/"
+        },
+        {
+          name: "Project Reports",
+          url: "https://drive.google.com/drive/folders/1YfgzoODL0tuZnu1O9ZjlZLNMBajfBd_y?usp=drive_link"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Self-Attaching Camera Trap",
+      projectDesc:
+        "Working with a team of engineers, we went through all of the engineering process including brainstorming, design, and implementation. I designed and programmed the sensor fusion of the electrical components",
+      mainSkills: [
+        "Python: motor control",
+        "3D printing: custom housing fabrication",
+        "Soldering: circuit assembly",
+        "Circuit design: interface and control of components"
       ],
       footerLink: [
         {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/autoturn/rw1.png"),
-              caption: "Finished product"
-            },
+              pic: require("./assets/images/placeholder.jpg"),
+              caption: "Placeholder"
+            }
+          ]
+        },
+        {
+          name: "Control Hub Repository",
+          url: "https://github.com/vjc9duke/laser-tag-hub"
+        },
+        {
+          name: "Microcontroller Repository",
+          url: "https://drive.google.com/drive/folders/11wB_0B5jFPhh-wsaUemmA5tbX7PcPUwa?usp=sharing"
+        },
+        {
+          name: "Project Site",
+          url: "https://sites.google.com/view/quantum-quest/"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const multiDiscProjects = {
+  title: "Interdisciplinary Projects",
+  subtitle: "Projects that overlap mechanical, electrical, and software",
+  projects: [
+    {
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Animal Deterrent Mechanism",
+      projectDesc:
+        "I designed and programmed a Raspberry Pi-based system that detects animals using a PIR sensor and a camera with Computer Vision. After detection, the Raspberry Pi captures an image of the animal and activates several deterrents.",
+      mainSkills: [
+        "Circuit design: Connecting components to Raspberry Pi",
+        "CV: OpenCV for animal detection",
+        "Git: version control and collaboration",
+        "3D printing: part fabrication for motion component"
+      ],
+      footerLink: [
+        {
+          name: "Gallery", // TODO
+          pics: [
             {
-              pic: require("./assets/images/autoturn/rw2.png"),
-              caption: "Finished product (powered on)"
-            },
-            {
-              pic: require("./assets/images/autoturn/render2.png"),
-              caption: "Model render"
-            },
-            {
-              pic: require("./assets/images/autoturn/render3.png"),
-              caption: "Model render (internals)"
-            },
-            {
-              pic: require("./assets/images/autoturn/render4.png"),
-              caption: "Model render (enclosure)"
-            },
-            {
-              pic: require("./assets/images/autoturn/pcb.png"),
-              caption: "Custom PCB"
+              pic: require("./assets/images/placeholder.jpg"),
+              caption: "Placeholder"
             }
           ]
         },
@@ -868,115 +557,21 @@ const multiDiscProjects = {
       ]
     },
     {
-      image: require("./assets/images/minilaptop/render4.png"),
-      projectName: "Mini Laptop",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Drone Delivery and Recovery System",
       projectDesc:
-        "I created and programmed a custom Arduino-based laptop with a working display and keyboard.",
+        "I designed and printed a drone delivery system that uses a Parrot ANAFI drone. The system delivers the payload to a tree branch, leaves it for long periods of time, and recovers the payload using the same drone. This project was used by Duke University during the 2024 XPrize Rainforest competition.",
       mainSkills: [
-        "C: microcontroller programming",
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication",
-        "Laser cutting/engraving: custom part fabrication"
-      ],
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/minilaptop/rw1.png"),
-              caption: "Finished product"
-            },
-            {
-              pic: require("./assets/images/minilaptop/rw2.png"),
-              caption: "Finished product (alternate angle)"
-            },
-            {
-              pic: require("./assets/images/minilaptop/rw3.png"),
-              caption: "Lid closed"
-            },
-            {
-              pic: require("./assets/images/minilaptop/render1.png"),
-              caption: "Model render (battery tray out)"
-            },
-            {
-              pic: require("./assets/images/minilaptop/render2.png"),
-              caption: "Model render (closed)"
-            },
-            {
-              pic: require("./assets/images/minilaptop/render3.png"),
-              caption: "Model render (chassis)"
-            }
-          ]
-        },
-        {
-          name: "Project Repository",
-          url: "https://drive.google.com/drive/folders/1SCvuaQmR-wGKt6g1g63BmEzOezEiuqll?usp=sharing"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/tank/render1.png"),
-      projectName: "Candy Tank",
-      projectDesc:
-        "In a team of two, I interfaced my five-stage pipelined Verilog processor with various I/O devices (stepper motors, PWM servos, gyroscope, joystick) to create a controllable tank.",
-      mainSkills: [
-        "Verilog: FPGA hardware design and layout",
-        "Assembly: FPGA instructions",
-        "Xilinx Vivado: Verilog synthesis and deployment",
-        "Git: version control and collaboration",
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication",
-        "Laser cutting/engraving: custom part fabrication",
-        "Circuit wiring: project assembly"
+        "3D printing: part fabrication for drone attachment",
+        "Fusion 360: Design of hook and attachment system"
       ],
       footerLink: [
         {
           name: "Gallery",
           pics: [
             {
-              pic: require("./assets/images/tank/rw1.png"),
-              caption: "Physical build (tank)"
-            },
-            {
-              pic: require("./assets/images/tank/rw2.png"),
-              caption: "Physical build (tank)"
-            },
-            {
-              pic: require("./assets/images/tank/rw3.png"),
-              caption: "Physical build (joysticks)"
-            },
-            {
-              pic: require("./assets/images/tank/render2.png"),
-              caption: "Model render (front)"
-            },
-            {
-              pic: require("./assets/images/tank/render3.png"),
-              caption: "Model render (side)"
-            },
-            {
-              pic: require("./assets/images/tank/render4.png"),
-              caption: "Model render (back)"
-            },
-            {
-              pic: require("./assets/images/tank/render5.png"),
-              caption: "Model render (firing)"
-            },
-            {
-              pic: require("./assets/images/tank/render6.png"),
-              caption: "Model render (firing)"
-            },
-            {
-              pic: require("./assets/images/tank/render7.png"),
-              caption: "Model render (chassis)"
-            },
-            {
-              pic: require("./assets/images/tank/render8.png"),
-              caption: "Model render (joysticks)"
-            },
-            {
-              pic: require("./assets/images/tank/render9.png"),
-              caption: "Model render (joysticks)"
+              pic: require("./assets/images/placeholder.jpg"),
+              caption: "Placeholder"
             }
           ]
         },
@@ -1004,33 +599,53 @@ const softwareProjects = {
   subtitle: "Projects focused on software design and programming",
   projects: [
     {
-      image: require("./assets/images/thumbnails/autotester.png"),
-      projectName: "Assembly Autotester",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Portfolio Website",
       projectDesc:
-        "As a Digital Systems teaching assistant, I wrote a Python program that allows MIPS assembly files to be automatically tested against Verilog processors to facilitate the development of new test cases and assist student debugging.",
+        "I adapted and maintain my personal portfolio website using HTML, CSS, and JavaScript.",
       mainSkills: [
-        "Python: software development",
-        "Assembly: test cases",
-        "Verilog: processor testing",
-        "Git: version control"
+        // eslint-disable-next-line
+        "HTML: website content and structure",
+        "CSS: styling of website",
+        "JavaScript: user interactability with website",
+        "Git: version control throughout project"
       ],
       footerLink: [
         {
-          name: "Code Repository",
-          url: "https://github.com/vjc9duke/assembly-autotester"
+          name: "Website",
+          url: "https://raulgalvezjr.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/thumbnails/chess.png"),
-      projectName: "Java Chess Application",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Duke Robotics Club Website",
       projectDesc:
-        "I, along with seven other team members, developed a Java chess app with a focus on using OOP design principles. I led the implementation of chess variation and user-defined variation support.",
+        "I overhauled the Duke Robotics Club website and help to maintain it, adding new content and features as needed. It received 2nd place in the website metric in Robonation's Robosub 2024 competition.",
       mainSkills: [
-        "Java: software development",
-        "Git: version control and collaboration",
-        "Design principles: application of MVC, design patterns, etc."
+        // eslint-disable-next-line
+        "Wordpress: website content and structure",
+        "CSS: styling of website"
+      ],
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://duke-robotics.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "UR5e Cookout Simulation",
+      projectDesc:
+        "In a team of four people, I simulated a UR5e arm in Gazebosim by modifying the URDF file and creating a custom world file. I also helped to control the movement of the simulated arm using Python.",
+      mainSkills: [
+        "Gazebosim: simulation environment",
+        "ROS1: customized URDF file of the robot",
+        "Python: control of the arm's movement",
+        "Git: version control and collaboration"
       ],
       footerLink: [
         {
@@ -1041,41 +656,43 @@ const softwareProjects = {
       ]
     },
     {
-      image: require("./assets/images/thumbnails/pi.png"),
-      projectName: "Picasso Intelligence Website",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "5-stage RISC Processor",
       projectDesc:
-        "I refactored and documented the codebase for Picasso Intelligence's product website, drastically reducing duplicated code and providing a no-code way to add new products via JSON files.",
+        "I coded a 5-stage RISC processor by using Verilog, and implemented it on an Nexys A7 FPGA.",
       mainSkills: [
-        // eslint-disable-next-line
-        "JavaScript: custom functionality",
-        "HTML: website structure",
-        "CSS: website styling",
+        "Python: software development",
+        "Assembly: test cases",
+        "Verilog: processor testing",
         "Git: version control"
       ],
       footerLink: [
         {
-          name: "Website",
-          url: "https://picassointelligence.com/"
+          name: "Code Repository",
+          url: "https://raulgalvezjr.com"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/thumbnails/database.png"),
-      projectName: "UChat Anonymous Chatting App",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Apartment Hunter Website",
       projectDesc:
-        "In a team of five, I developed a proof-of-concept anonymous chatting app using React and Firebase.",
+        "I refactored and documented the codebase for Picasso Intelligence's product website, drastically reducing duplicated code and providing a no-code way to add new products via JSON files.",
       mainSkills: [
-        "TypeScript: software development",
-        "React: app framework",
-        "Firebase: backend database",
-        "Git: version control and collboration",
-        "XCode: iOS testing and deployment"
+        // eslint-disable-next-line
+        "HTML: website content and structure",
+        "CSS: styling of website",
+        "JavaScript: user interactability with website",
+        "Bootstrap: website layout",
+        "Git: version control throughout project",
+        "Gitlab: CI/CD pipeline for website deployment",
+        "AWS: hosting of website"
       ],
       footerLink: [
         {
-          name: "Code Repository",
-          url: "https://github.com/Ydz0616/UChat"
+          name: "Website",
+          url: "https://raulgalvezjr.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -1084,196 +701,37 @@ const softwareProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-const mechProjects = {
-  title: "Mechanical Projects",
-  subtitle: "Projects focused on CAD and fabrication",
+const electricalProjects = {
+  title: "Electrical Projects",
+  subtitle:
+    "Projects focused on Circuit Design, Soldering, and Micro-controllers",
   projects: [
     {
-      image: require("./assets/images/cube/render1.png"),
-      projectName: "Fidget Cube",
+      image: require("./assets/images/placeholder.jpg"),
+      projectName: "Underwater AUV",
       projectDesc:
-        "3D printed cube with inserts for low profile mechanical switches",
+        "In a team of engineers, I wired, soldered, and epoxied the electrical components of an AUV. Additionally, I incorporated a depth sensor and a gyroscopic sensor to the system.",
       footerLink: [
         {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/cube/rw1.png"),
+              pic: require("./assets/images/placeholder.jpg"),
               caption: "Final product"
-            },
-            {
-              pic: require("./assets/images/cube/rw2.png"),
-              caption: "Final product (alternate angle)"
-            },
-            {
-              pic: require("./assets/images/cube/render2.png"),
-              caption: "Stylized render"
-            },
-            {
-              pic: require("./assets/images/cube/render3.png"),
-              caption: "Cube render"
-            },
-            {
-              pic: require("./assets/images/cube/render4.png"),
-              caption: "Stylized base render"
             }
           ]
         }
         //  you can add extra buttons here.
       ],
       mainSkills: [
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication"
-      ]
-    },
-    {
-      image: require("./assets/images/deskhook/render1.png"),
-      projectName: "Desk Hook",
-      projectDesc:
-        "Bespoke hook fitted to my desk; holes headphones, hats, etc. and can be modified to support different use cases",
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/deskhook/rw1.png"),
-              caption: "Final product"
-            },
-            {
-              pic: require("./assets/images/deskhook/rw2.png"),
-              caption: "Final product (in use)"
-            },
-            {
-              pic: require("./assets/images/deskhook/render2.png"),
-              caption: "Desk hook render"
-            },
-            {
-              pic: require("./assets/images/deskhook/render15.png"),
-              caption: "Desk hook assembly"
-            },
-            {
-              pic: require("./assets/images/deskhook/rw3.png"),
-              caption: "Final product (wrist rest)"
-            },
-            {
-              pic: require("./assets/images/deskhook/rw4.png"),
-              caption: "Final product (wrist rest in use)"
-            },
-            {
-              pic: require("./assets/images/deskhook/render3.png"),
-              caption: "Wrist rest render"
-            },
-            {
-              pic: require("./assets/images/deskhook/render4.png"),
-              caption: "Wrist rest assembly"
-            }
-          ]
-        }
-        //  you can add extra buttons here.
-      ],
-      mainSkills: [
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication",
-        "Laser cutting/engraving: custom part fabrication"
-      ]
-    },
-    {
-      image: require("./assets/images/ghome/render1.png"),
-      projectName: "Google Home Mount",
-      projectDesc:
-        "Custom mounting bracket for speaker system in my garage gym",
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/ghome/rw.png"),
-              caption: "Final product"
-            },
-            {
-              pic: require("./assets/images/ghome/render2.png"),
-              caption: "Model render"
-            },
-            {
-              pic: require("./assets/images/ghome/render3.png"),
-              caption: "Model render"
-            }
-          ]
-        }
-        //  you can add extra buttons here.
-      ],
-      mainSkills: [
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication"
-      ]
-    },
-    {
-      image: require("./assets/images/laptopstand/render1.png"),
-      projectName: "CNC'd Laptop Stand",
-      projectDesc:
-        "Wooden, angled laptop stand fabricated using a CNC router. Also sanded, painted, and polished.",
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/laptopstand/rw1.png"),
-              caption: "Final product"
-            },
-            {
-              pic: require("./assets/images/laptopstand/rw2.png"),
-              caption: "Final product (in use)"
-            },
-            {
-              pic: require("./assets/images/laptopstand/render2.png"),
-              caption: "Model render"
-            },
-            {
-              pic: require("./assets/images/laptopstand/render3.png"),
-              caption: "Model render"
-            }
-          ]
-        }
-        //  you can add extra buttons here.
-      ],
-      mainSkills: [
-        "Fusion 360: 3D modeling",
-        "CNC milling: custom part fabrication",
-        "Woodworking: assembly and finish"
-      ]
-    },
-    {
-      image: require("./assets/images/watch/render1.png"),
-      projectName: "Watch Charging Station",
-      projectDesc:
-        "3D printed casing for my Galaxy Watch charger in the shape of a rook. Comes with an attachment on top for an Apple Watch charger.",
-      footerLink: [
-        {
-          name: "Gallery", // TODO
-          pics: [
-            {
-              pic: require("./assets/images/watch/rw.png"),
-              caption: "Final product"
-            },
-            {
-              pic: require("./assets/images/watch/render2.png"),
-              caption: "Model render"
-            },
-            {
-              pic: require("./assets/images/watch/render3.png"),
-              caption: "Model render"
-            }
-          ]
-        }
-        //  you can add extra buttons here.
-      ],
-      mainSkills: [
-        "Fusion 360: 3D modeling",
-        "3D printing: custom part fabrication"
+        "3D printing: printing of custom thrusters",
+        "Soldering: circuit assembly",
+        "Circuit design: distribution of wires",
+        "Epoxying: waterproofing of components"
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -1289,7 +747,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/placeholder.jpg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -1305,33 +763,6 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -1341,7 +772,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Papers",
-  subtitle: "Reports I have contributed to at Duke University",
+  subtitle: "Reports I have contributed to during my time at Duke University",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -1349,14 +780,7 @@ const blogSection = {
       title:
         "Technical Design Review of Duke Robotics Club's Oogway: An AUV for RoboSub 2024",
       description:
-        "The technical design details of Oogway, Duke Robotics Club's autonomous underwater vehicle (AUV) for the 2024 RoboSub competition."
-    },
-    {
-      url: "https://arxiv.org/abs/2410.10900",
-      title:
-        "Oogway: Designing, Implementing, and Testing an AUV for RoboSub 2023",
-      description:
-        "The technical design details of Oogway, Duke Robotics Club's autonomous underwater vehicle (AUV) for the 2023 RoboSub competition."
+        "The technical design details of Oogway, Duke Robotics Club's AUV for RoboNation's 2024 RoboSub competition."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -1406,8 +830,8 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me 📫"),
   // number: "+1 (440) 318-4013",
-  email_address: "vzchen12@gmail.com",
-  location: "Seattle, WA"
+  email_address: "RaulGalvez10072@outlook.com",
+  location: "San Antonio, Texas"
 };
 
 // Twitter Section
@@ -1433,7 +857,7 @@ export {
   bigProjects,
   multiDiscProjects,
   softwareProjects,
-  mechProjects,
+  electricalProjects,
   achievementSection,
   blogSection,
   talkSection,

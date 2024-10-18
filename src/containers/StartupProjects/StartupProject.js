@@ -4,7 +4,7 @@ import {
   bigProjects,
   multiDiscProjects,
   softwareProjects,
-  mechProjects
+  electricalProjects
 } from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
@@ -362,7 +362,7 @@ export function StartupProject() {
       <GetProjectsDiv projects={bigProjects} />
       <GetProjectsDiv projects={multiDiscProjects} />
       <GetProjectsDiv projects={softwareProjects} />
-      <GetProjectsDiv projects={mechProjects} />
+      <GetProjectsDiv projects={electricalProjects} />
     </Fade>
   );
 }

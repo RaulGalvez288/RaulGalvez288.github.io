@@ -89,7 +89,7 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
@@ -99,6 +99,10 @@
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px solid $lightBoxShadowDark; /* Optional: adds a border to improve visibility */
+  background-color: #ffffff;
 }
 
 .experience-text-role {
@@ -140,6 +144,9 @@
   }
   .experience-text-company {
     font-size: 22px;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: normal;
   }
   .experience-text-date {
     font-size: 18px;

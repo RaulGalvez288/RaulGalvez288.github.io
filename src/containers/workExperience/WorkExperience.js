@@ -11,10 +11,10 @@ export function WorkExperience() {
     return (
       <div>
         <Fade bottom duration={1000} distance="20px" fraction="0.05">
-          <div id="internship">
+          <div id="experience">
             <div className="experience-container" id="internshipContainer">
               <div>
-                <h1 className="experience-heading">Internships</h1>
+                <h1 className="experience-heading">Work Experience</h1>
                 <div className="experience-cards-div">
                   {workExperiences.experience.map((card, i) => {
                     return (
@@ -37,34 +37,6 @@ export function WorkExperience() {
               </div>
             </div>
           </div>{" "}
-        </Fade>
-        <Fade bottom duration={1000} distance="20px" fraction="0.05">
-          <div id="otherExperience">
-            <div className="experience-container" id="otherExperienceContainer">
-              <div>
-                <h1 className="experience-heading">Other Work Experience</h1>
-                <div className="experience-cards-div">
-                  {otherExperiences.experience.map((card, i) => {
-                    return (
-                      <ExperienceCard
-                        key={i}
-                        isDark={isDark}
-                        cardInfo={{
-                          company: card.company,
-                          desc: card.desc,
-                          date: card.date,
-                          companylogo: card.companylogo,
-                          role: card.role,
-                          descBullets: card.descBullets,
-                          mainSkills: card.mainSkills
-                        }}
-                      />
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          </div>
         </Fade>
       </div>
     );
