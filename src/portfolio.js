@@ -521,7 +521,7 @@ const multiDiscProjects = {
   subtitle: "Projects that overlap mechanical, electrical, and software",
   projects: [
     {
-      image: require("./assets/images/coming_soon.jpg"),
+      image: require("./assets/images/coming_soon.png"),
       projectName: "Deterrent System (In Progress)",
       projectDesc:
         "I am designing and programming a Raspberry Pi-based system that detects animals using a PIR sensor and a camera with Computer Vision. After detection, the Raspberry Pi captures an image of the animal and activates several deterrents.",
@@ -676,7 +676,7 @@ const softwareProjects = {
       ]
     },
     {
-      image: require("./assets/images/Apartment_hunter/atxaptlogo.jpg"),
+      image: require("./assets/images/Apartment_hunter/atxaptlogo.png"),
       projectName: "Apartment Hunter Website",
       projectDesc:
         "I refactored and documented the codebase for Picasso Intelligence's product website, drastically reducing duplicated code and providing a no-code way to add new products via JSON files.",
@@ -708,7 +708,7 @@ const electricalProjects = {
     "Projects focused on Circuit Design, Soldering, and Micro-controllers",
   projects: [
     {
-      image: require("./assets/images/Underwater_AUV/Rendering.jpg"),
+      image: require("./assets/images/Underwater_AUV/Rendering.png"),
       projectName: "Underwater AUV",
       projectDesc:
         "In a team of engineers, I wired, soldered, and epoxied the electrical components of an AUV. Additionally, I incorporated a depth sensor and a gyroscopic sensor to the system.",
@@ -717,15 +717,15 @@ const electricalProjects = {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/Underwater_AUV/Rendering.jpg"),
+              pic: require("./assets/images/Underwater_AUV/Rendering.png"),
               caption: "Rendering of AUV"
             },
             {
-              pic: require("./assets/images/Underwater_AUV/epoxied_arduino.jpg"),
+              pic: require("./assets/images/Underwater_AUV/epoxied_arduino.png"),
               caption: "Epoxied Arduino"
             },
             {
-              pic: require("./assets/images/Underwater_AUV/PDB.jpg"),
+              pic: require("./assets/images/Underwater_AUV/PDB.png"),
               caption: "Power Distribution Board"
             }
           ]
