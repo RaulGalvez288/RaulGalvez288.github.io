@@ -453,7 +453,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/Walking_Robot/rendering.png"),
       projectName: "Autonomous Walking Robot",
       projectDesc:
         "I designed, modeled, and programmed a walking robot for my Robot Studio course. It uses a Raspberry Pi 4, Lewansoul LX-16A servos, and a custom 3D printed components.",
@@ -466,7 +466,7 @@ const bigProjects = {
         "Circuit design: power distribution and control"
       ],
       footerLink: [
-        {
+        /*{
           name: "Gallery",
           pics: [
             {
@@ -478,15 +478,11 @@ const bigProjects = {
         {
           name: "Code Repository",
           url: "https://gitfront.io/r/vzchen12/UNpA3DKFZE8x/patron-counter/"
-        },
-        {
-          name: "Project Reports",
-          url: "https://drive.google.com/drive/folders/1YfgzoODL0tuZnu1O9ZjlZLNMBajfBd_y?usp=drive_link"
-        }
+        }*/
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/camera_trap/full_body.png"),
       projectName: "Self-Attaching Camera Trap",
       projectDesc:
         "Working with a team of engineers, we went through all of the engineering process including brainstorming, design, and implementation. I designed and programmed the sensor fusion of the electrical components",
@@ -501,22 +497,18 @@ const bigProjects = {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/placeholder.jpg"),
-              caption: "Placeholder"
+              pic: require("./assets/images/camera_trap/full_body.png"),
+              caption: "Full assembly of camera trap"
+            },
+            {
+              pic: require("./assets/images/camera_trap/internals.png"),
+              caption: "Internal components"
             }
           ]
         },
         {
-          name: "Control Hub Repository",
-          url: "https://github.com/vjc9duke/laser-tag-hub"
-        },
-        {
-          name: "Microcontroller Repository",
-          url: "https://drive.google.com/drive/folders/11wB_0B5jFPhh-wsaUemmA5tbX7PcPUwa?usp=sharing"
-        },
-        {
-          name: "Project Site",
-          url: "https://sites.google.com/view/quantum-quest/"
+          name: "Poster Presentation",
+          url: "https://drive.google.com/file/d/1xkYTDpCekDJP4LKa3pAZ-DWgQPGIFrm6/view?usp=drive_link"
         }
       ]
     }
@@ -557,7 +549,7 @@ const multiDiscProjects = {
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/Drone_DR/hook.png"),
       projectName: "Drone Delivery and Recovery System",
       projectDesc:
         "I designed and printed a drone delivery system that uses a Parrot ANAFI drone. The system delivers the payload to a tree branch, leaves it for long periods of time, and recovers the payload using the same drone. This project was used by Duke University during the 2024 XPrize Rainforest competition.",
@@ -570,22 +562,18 @@ const multiDiscProjects = {
           name: "Gallery",
           pics: [
             {
-              pic: require("./assets/images/placeholder.jpg"),
-              caption: "Placeholder"
+              pic: require("./assets/images/Drone_DR/low_fidelity.png"),
+              caption: "Low fidelity prototype"
+            },
+            {
+              pic: require("./assets/images/Drone_DR/hook.png"),
+              caption: "Hook attachment"
             }
           ]
         },
         {
           name: "Final Report",
-          url: "https://drive.google.com/drive/folders/1_Z2xYIUV9wx06B4IwAvXH5mowS1NROVu?usp=sharing"
-        },
-        {
-          name: "Project Repository",
-          url: "https://gitfront.io/r/vzchen12/TtpPNDatzmQ7/candy-tank-software/"
-        },
-        {
-          name: "Processor Repository",
-          url: "https://gitfront.io/r/user-4226062/xhqb4TY5mNGB/processor/"
+          url: "https://drive.google.com/file/d/1J3Hvar-NJ4yBdTvN8eqV9F3I1OrOSbYD/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
@@ -599,7 +587,7 @@ const softwareProjects = {
   subtitle: "Projects focused on software design and programming",
   projects: [
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/portfolio_website/Raul-Galvez.png"),
       projectName: "Portfolio Website",
       projectDesc:
         "I adapted and maintain my personal portfolio website using HTML, CSS, and JavaScript.",
@@ -619,7 +607,7 @@ const softwareProjects = {
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/DRC_website/logo.png"),
       projectName: "Duke Robotics Club Website",
       projectDesc:
         "I overhauled the Duke Robotics Club website and help to maintain it, adding new content and features as needed. It received 2nd place in the website metric in Robonation's Robosub 2024 competition.",
@@ -637,10 +625,10 @@ const softwareProjects = {
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/UR5e_arm/Full_simulation.png"),
       projectName: "UR5e Cookout Simulation",
       projectDesc:
-        "In a team of four people, I simulated a UR5e arm in Gazebosim by modifying the URDF file and creating a custom world file. I also helped to control the movement of the simulated arm using Python.",
+        "In a team of four people, I simulated a UR5e arm in Gazebosim by modifying the URDF file to incorporate a gripper as the end effector. I also helped to control the movement of the simulated arm using Python.",
       mainSkills: [
         "Gazebosim: simulation environment",
         "ROS1: customized URDF file of the robot",
@@ -649,14 +637,27 @@ const softwareProjects = {
       ],
       footerLink: [
         {
-          name: "Code Repository (My Section)",
-          url: "https://gitfront.io/r/user-4226062/8eBccXDeUwHx/308-final/tree/src/main/java/oogasalad/GamePlayer/"
+          name: "Gallery", // TODO
+          pics: [
+            {
+              pic: require("./assets/images/UR5e_arm/simulated_UR5e.png"),
+              caption: "Simulated UR5e arm with gripper"
+            },
+            {
+              pic: require("./assets/images/UR5e_arm/Full_simulation.png"),
+              caption: "UR5e arm holding burger patty"
+            },
+          ]
+        },
+        {
+          name: "Final Report",
+          url: "https://drive.google.com/file/d/1p7hE7d0GsVRePXV9CouzCvUmgag8VIvV/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/5-stage_RISC/diagram.png"),
       projectName: "5-stage RISC Processor",
       projectDesc:
         "I coded a 5-stage RISC processor by using Verilog, and implemented it on an Nexys A7 FPGA.",
@@ -667,15 +668,15 @@ const softwareProjects = {
         "Git: version control"
       ],
       footerLink: [
-        {
+          /*{
           name: "Code Repository",
           url: "https://raulgalvezjr.com"
-        }
+          }*/
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/Apartment_hunter/atxaptlogo.jpg"),
       projectName: "Apartment Hunter Website",
       projectDesc:
         "I refactored and documented the codebase for Picasso Intelligence's product website, drastically reducing duplicated code and providing a no-code way to add new products via JSON files.",
@@ -691,8 +692,8 @@ const softwareProjects = {
       ],
       footerLink: [
         {
-          name: "Website",
-          url: "https://raulgalvezjr.com/"
+          name: "Gitlab Repository",
+          url: "https://gitlab.com/raulgalvez10072/atxapartmenthunter"
         }
         //  you can add extra buttons here.
       ]
@@ -707,7 +708,7 @@ const electricalProjects = {
     "Projects focused on Circuit Design, Soldering, and Micro-controllers",
   projects: [
     {
-      image: require("./assets/images/placeholder.jpg"),
+      image: require("./assets/images/Underwater_AUV/Rendering.jpg"),
       projectName: "Underwater AUV",
       projectDesc:
         "In a team of engineers, I wired, soldered, and epoxied the electrical components of an AUV. Additionally, I incorporated a depth sensor and a gyroscopic sensor to the system.",
@@ -716,10 +717,22 @@ const electricalProjects = {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/placeholder.jpg"),
-              caption: "Final product"
+              pic: require("./assets/images/Underwater_AUV/Rendering.jpg"),
+              caption: "Rendering of AUV"
+            },
+            {
+              pic: require("./assets/images/Underwater_AUV/epoxied_arduino.jpg"),
+              caption: "Epoxied Arduino"
+            },
+            {
+              pic: require("./assets/images/Underwater_AUV/PDB.jpg"),
+              caption: "Power Distribution Board"
             }
           ]
+        },
+        {
+          name: "Final Report",
+          url: "https://drive.google.com/file/d/1ZsWCRDoJMIcBn5en0zVbckDKV4P8z_4d/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ],
