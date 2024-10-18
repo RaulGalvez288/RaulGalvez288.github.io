@@ -521,10 +521,10 @@ const multiDiscProjects = {
   subtitle: "Projects that overlap mechanical, electrical, and software",
   projects: [
     {
-      image: require("./assets/images/placeholder.jpg"),
-      projectName: "Animal Deterrent Mechanism",
+      image: require("./assets/images/coming_soon.jpg"),
+      projectName: "Deterrent System (In Progress)",
       projectDesc:
-        "I designed and programmed a Raspberry Pi-based system that detects animals using a PIR sensor and a camera with Computer Vision. After detection, the Raspberry Pi captures an image of the animal and activates several deterrents.",
+        "I am designing and programming a Raspberry Pi-based system that detects animals using a PIR sensor and a camera with Computer Vision. After detection, the Raspberry Pi captures an image of the animal and activates several deterrents.",
       mainSkills: [
         "Circuit design: Connecting components to Raspberry Pi",
         "CV: OpenCV for animal detection",
