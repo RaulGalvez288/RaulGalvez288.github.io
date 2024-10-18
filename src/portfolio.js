@@ -646,7 +646,7 @@ const softwareProjects = {
             {
               pic: require("./assets/images/UR5e_arm/Full_simulation.png"),
               caption: "UR5e arm holding burger patty"
-            },
+            }
           ]
         },
         {
@@ -668,7 +668,7 @@ const softwareProjects = {
         "Git: version control"
       ],
       footerLink: [
-          /*{
+        /*{
           name: "Code Repository",
           url: "https://raulgalvezjr.com"
           }*/
