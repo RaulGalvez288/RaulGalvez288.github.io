@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.df69aaff.css",
-    "main.js": "/static/js/main.c0b51840.js",
+    "main.js": "/static/js/main.105bacbb.js",
     "static/css/64.a6e6d109.chunk.css": "/static/css/64.a6e6d109.chunk.css",
     "static/js/64.daef3ea3.chunk.js": "/static/js/64.daef3ea3.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -13,7 +13,6 @@
     "static/media/render1.png": "/static/media/render1.6571a706123e88f2b11e.png",
     "static/media/stack.png": "/static/media/stack.71e3407b1158bb90b2cd.png",
     "static/media/camera.png": "/static/media/camera.0e5c0fbd7ed0c126464b.png",
-    "static/media/coming_soon.png": "/static/media/coming_soon.4fb6a9de58a245697f56.png",
     "static/media/simulated_UR5e.png": "/static/media/simulated_UR5e.534b4eb80910d2d19737.png",
     "static/media/Rendering.png": "/static/media/Rendering.13a30c6c4de734a72bc4.png",
     "static/media/dukeCMAC.png": "/static/media/dukeCMAC.a3d178bc0db8c0579d2b.png",
@@ -23,11 +22,13 @@
     "static/media/epoxied_arduino.png": "/static/media/epoxied_arduino.b91112302534b092ddf6.png",
     "static/media/internals.png": "/static/media/internals.79590135041ee27acb9f.png",
     "static/media/full_body.png": "/static/media/full_body.01ea4e3e34294cda39be.png",
+    "static/media/Project_Artemis_Animation.gif": "/static/media/Project_Artemis_Animation.257479eed347f37752ad.gif",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/dukeLogo.png": "/static/media/dukeLogo.6f4afe30e3deebeb9e24.png",
     "static/media/diagram.png": "/static/media/diagram.3a2089a612e7b58d3bcb.png",
     "static/media/low_fidelity.png": "/static/media/low_fidelity.c3c73c15da953044f189.png",
     "static/media/rendering.png": "/static/media/rendering.3b22f5a84238ef0c1904.png",
+    "static/media/Tpost_assembly.png": "/static/media/Tpost_assembly.812a3d2cb43a3787c2bf.png",
     "static/media/hook.png": "/static/media/hook.ddc08fcbb53a5857bdd2.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/logo.png": "/static/media/logo.f066249d5aa3045ad8c5.png",
@@ -38,7 +39,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.df69aaff.css.map": "/static/css/main.df69aaff.css.map",
-    "main.c0b51840.js.map": "/static/js/main.c0b51840.js.map",
+    "main.105bacbb.js.map": "/static/js/main.105bacbb.js.map",
     "64.a6e6d109.chunk.css.map": "/static/css/64.a6e6d109.chunk.css.map",
     "64.daef3ea3.chunk.js.map": "/static/js/64.daef3ea3.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -46,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.df69aaff.css",
-    "static/js/main.c0b51840.js"
+    "static/js/main.105bacbb.js"
   ]
 }
