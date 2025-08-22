@@ -365,9 +365,9 @@ const workExperiences = {
     },
     {
       role: "Bartender",
-      company:
-        "Magnolia Gardens on Main",
-      companylogo: "https://magnoliagardensonmain.com/wp-content/uploads/2017/07/Magnolia_logo.png",
+      company: "Magnolia Gardens on Main",
+      companylogo:
+        "https://magnoliagardensonmain.com/wp-content/uploads/2017/07/Magnolia_logo.png",
       date: "May 2020 – Present",
       desc: "I helped ensure that guests have a postiive experience by addressing and concerns and mixing drinks for guests.",
       mainSkills: [
