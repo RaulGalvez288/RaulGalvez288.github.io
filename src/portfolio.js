@@ -353,14 +353,28 @@ const workExperiences = {
       company:
         "Duke University Department of Computational Media, Arts & Cultures",
       companylogo: require("./assets/images/dukeCMAC.png"),
-      date: "August 2024 – Present",
-      desc: "I first designed, built, and wired a custom control panel to emulate a polymer activation system. Then, I developed simulation software to enable remote analysis of customer equipment.",
+      date: "August 2024 – December 2024",
+      desc: "I developed the world's environment using blueprint programming and C++. I also helped to develop the tree generation of the world.",
       mainSkills: [
         "Unreal Engine 5: interactive world using simulation",
         "Blueprint Scrpting: element creation and interaction",
         "Fusion 360: asset modeling and implementation",
         "Jira: task tracking and documentation",
         "Git: version control and collaboration"
+      ]
+    },
+    {
+      role: "Bartender",
+      company:
+        "Magnolia Gardens on Main",
+      companylogo: "https://magnoliagardensonmain.com/wp-content/uploads/2017/07/Magnolia_logo.png",
+      date: "May 2020 – Present",
+      desc: "I helped ensure that guests have a postiive experience by addressing and concerns and mixing drinks for guests.",
+      mainSkills: [
+        "Mixing drinks",
+        "Customer service",
+        "Kitchen assistance",
+        "Serving and Food Handling"
       ]
     }
   ]
@@ -521,29 +535,29 @@ const multiDiscProjects = {
   subtitle: "Projects that overlap mechanical, electrical, and software",
   projects: [
     {
-      image: require("./assets/images/coming_soon.png"),
-      projectName: "Deterrent System (In Progress)",
+      image: require("./assets/images/Project_Artemis_Animation.gif"),
+      projectName: "Deterrent System",
       projectDesc:
-        "I am designing and programming a Raspberry Pi-based system that detects animals using a PIR sensor and a camera with Computer Vision. After detection, the Raspberry Pi captures an image of the animal and activates several deterrents.",
+        "I helped design and program a Raspberry Pi-based system that detects and deters animals. It uses a PIR sensor and a camera along with Computer Vision for detection. After detection, several deterrents are activated including audio, auditory, and motion deterrents.",
       mainSkills: [
-        "Circuit design: Connecting components to Raspberry Pi",
-        "CV: OpenCV for animal detection",
-        "Git: version control and collaboration",
-        "3D printing: part fabrication for motion component"
+        "Circuit design: Connecting components to Raspberry Pi and wire handling",
+        "CV: Used OpenCV for animal detection",
+        "Git: Version control and collaboration",
+        "3D printing: Part fabrication for motion component"
       ],
       footerLink: [
         {
           name: "Gallery", // TODO
           pics: [
             {
-              pic: require("./assets/images/placeholder.jpg"),
-              caption: "Placeholder"
+              pic: require("./assets/images/Deterrent_system/Tpost_assembly.png"),
+              caption: "Tpost_assembly"
             }
           ]
         },
         {
           name: "Project Repository",
-          url: "https://drive.google.com/drive/folders/1h6wmmpmsol9Kt3RwvbTfrpdYKEORiaBt?usp=sharing"
+          url: "https://github.com/RaulGalvez288/ECE449_SquirrelDeterrent"
         }
         //  you can add extra buttons here.
       ]
